@@ -2,12 +2,52 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="220.75000000000003" y="23.0">com.iceblock.study.headfirst.pattern.chapter2.part1.Observer</node>
+    <node x="170.00000000000003" y="184.0">com.iceblock.study.headfirst.pattern.chapter2.part1.CurrentConditionDisplay</node>
+    <node x="0.0" y="184.0">com.iceblock.study.headfirst.pattern.chapter2.part1.StatisticsDisplay</node>
+    <node x="5.0" y="23.0">com.iceblock.study.headfirst.pattern.chapter2.part1.DisplayElement</node>
+    <node x="463.5" y="0.0">com.iceblock.study.headfirst.pattern.chapter2.part1.Subject</node>
+    <node x="363.0" y="149.0">com.iceblock.study.headfirst.pattern.chapter2.part1.WeatherData</node>
+  </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <edges>
+    <edge source="com.iceblock.study.headfirst.pattern.chapter2.part1.CurrentConditionDisplay" target="com.iceblock.study.headfirst.pattern.chapter2.part1.Observer">
+      <point x="43.25" y="-38.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.iceblock.study.headfirst.pattern.chapter2.part1.WeatherData" target="com.iceblock.study.headfirst.pattern.chapter2.part1.Subject">
+      <point x="80.5" y="-73.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="com.iceblock.study.headfirst.pattern.chapter2.part1.CurrentConditionDisplay" target="com.iceblock.study.headfirst.pattern.chapter2.part1.DisplayElement">
+      <point x="-43.25" y="-38.0" />
+      <point x="213.25000000000003" y="119.0" />
+      <point x="102.5" y="119.0" />
+      <point x="32.5" y="26.5" />
+    </edge>
+    <edge source="com.iceblock.study.headfirst.pattern.chapter2.part1.StatisticsDisplay" target="com.iceblock.study.headfirst.pattern.chapter2.part1.DisplayElement">
+      <point x="-37.5" y="-38.0" />
+      <point x="-32.5" y="26.5" />
+    </edge>
+    <edge source="com.iceblock.study.headfirst.pattern.chapter2.part1.StatisticsDisplay" target="com.iceblock.study.headfirst.pattern.chapter2.part1.Observer">
+      <point x="37.5" y="-38.0" />
+      <point x="112.5" y="129.0" />
+      <point x="247.08333333333337" y="129.0" />
+      <point x="-52.66666666666666" y="26.5" />
+    </edge>
+    <edge source="com.iceblock.study.headfirst.pattern.chapter2.part1.WeatherData" target="com.iceblock.study.headfirst.pattern.chapter2.part1.Observer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="373.0" y="147.5" />
   <SelectedNodes />
-  <Categories />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
 </Diagram>
 

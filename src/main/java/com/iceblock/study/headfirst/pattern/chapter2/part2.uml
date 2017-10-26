@@ -2,12 +2,53 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement />
-  <nodes />
+  <nodes>
+    <node x="570.0" y="183.5">com.iceblock.study.headfirst.pattern.chapter2.part2.CurrentConditionDisplay</node>
+    <node x="316.5" y="0.0">java.util.Observer</node>
+    <node x="602.25" y="0.0">com.iceblock.study.headfirst.pattern.chapter2.part2.DisplayElement</node>
+    <node x="57.0" y="390.0">com.iceblock.study.headfirst.pattern.chapter2.part2.WeatherData</node>
+    <node x="0.0" y="103.0">java.util.Observable</node>
+    <node x="400.0" y="183.5">com.iceblock.study.headfirst.pattern.chapter2.part2.StatisticsDisplay</node>
+  </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <edges>
+    <edge source="com.iceblock.study.headfirst.pattern.chapter2.part2.StatisticsDisplay" target="com.iceblock.study.headfirst.pattern.chapter2.part2.DisplayElement">
+      <point x="37.5" y="-38.0" />
+      <point x="512.5" y="83.0" />
+      <point x="634.75" y="83.0" />
+      <point x="-32.5" y="26.5" />
+    </edge>
+    <edge source="java.util.Observable" target="java.util.Observer">
+      <point x="0.0" y="-118.5" />
+      <point x="190.0" y="83.0" />
+      <point x="356.83333333333326" y="83.0" />
+      <point x="-80.66666666666669" y="26.5" />
+    </edge>
+    <edge source="com.iceblock.study.headfirst.pattern.chapter2.part2.StatisticsDisplay" target="java.util.Observer">
+      <point x="-37.5" y="-38.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.iceblock.study.headfirst.pattern.chapter2.part2.CurrentConditionDisplay" target="com.iceblock.study.headfirst.pattern.chapter2.part2.DisplayElement">
+      <point x="43.25" y="-38.0" />
+      <point x="32.5" y="26.5" />
+    </edge>
+    <edge source="com.iceblock.study.headfirst.pattern.chapter2.part2.CurrentConditionDisplay" target="java.util.Observer">
+      <point x="-43.25" y="-38.0" />
+      <point x="613.25" y="73.0" />
+      <point x="518.1666666666666" y="73.0" />
+      <point x="80.66666666666669" y="26.5" />
+    </edge>
+    <edge source="com.iceblock.study.headfirst.pattern.chapter2.part2.WeatherData" target="java.util.Observable">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="118.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6974459724950884" x="372.1661971830986" y="164.5" />
   <SelectedNodes />
-  <Categories />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
 </Diagram>
 

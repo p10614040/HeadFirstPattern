@@ -17,10 +17,8 @@
   <notes />
   <edges>
     <edge source="com.iceblock.study.headfirst.pattern.chapter1.part2.RedHeadDuck" target="com.iceblock.study.headfirst.pattern.chapter1.part2.behavior.Quack">
-      <point x="0.0" y="-26.5" />
-      <point x="527.6666666666667" y="322.0" />
-      <point x="603.0" y="322.0" />
-      <point x="-31.0" y="26.5" />
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
     </edge>
     <edge source="com.iceblock.study.headfirst.pattern.chapter1.part2.behavior.FlyWithWings" target="com.iceblock.study.headfirst.pattern.chapter1.part2.behavior.FlyBehavior">
       <point x="0.0" y="-26.5" />
@@ -29,10 +27,8 @@
       <point x="34.0" y="26.5" />
     </edge>
     <edge source="com.iceblock.study.headfirst.pattern.chapter1.part2.RubberDuck" target="com.iceblock.study.headfirst.pattern.chapter1.part2.behavior.Slience">
-      <point x="-43.33333333333334" y="-26.5" />
-      <point x="117.99166666666662" y="332.0" />
-      <point x="62.0" y="332.0" />
-      <point x="0.0" y="26.5" />
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
     </edge>
     <edge source="com.iceblock.study.headfirst.pattern.chapter1.part2.RedHeadDuck" target="com.iceblock.study.headfirst.pattern.chapter1.part2.Duck">
       <point x="-43.33333333333337" y="-26.5" />
@@ -41,10 +37,8 @@
       <point x="0.0" y="84.5" />
     </edge>
     <edge source="com.iceblock.study.headfirst.pattern.chapter1.part2.RubberDuck" target="com.iceblock.study.headfirst.pattern.chapter1.part2.behavior.FlyNoWay">
-      <point x="0.0" y="-26.5" />
-      <point x="161.325" y="332.0" />
-      <point x="195.0" y="332.0" />
-      <point x="0.0" y="26.5" />
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
     </edge>
     <edge source="com.iceblock.study.headfirst.pattern.chapter1.part2.behavior.FlyNoWay" target="com.iceblock.study.headfirst.pattern.chapter1.part2.behavior.FlyBehavior">
       <point x="0.0" y="-26.5" />
@@ -53,16 +47,12 @@
       <point x="-34.0" y="26.5" />
     </edge>
     <edge source="com.iceblock.study.headfirst.pattern.chapter1.part2.MallardDuck" target="com.iceblock.study.headfirst.pattern.chapter1.part2.behavior.FlyWithWings">
-      <point x="43.333333333333314" y="-26.5" />
-      <point x="753.0416666666667" y="332.0" />
-      <point x="797.75" y="332.0" />
-      <point x="27.25" y="26.5" />
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
     </edge>
     <edge source="com.iceblock.study.headfirst.pattern.chapter1.part2.MallardDuck" target="com.iceblock.study.headfirst.pattern.chapter1.part2.behavior.Quack">
-      <point x="0.0" y="-26.5" />
-      <point x="709.7083333333334" y="302.0" />
-      <point x="665.0" y="302.0" />
-      <point x="31.0" y="26.5" />
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
     </edge>
     <edge source="com.iceblock.study.headfirst.pattern.chapter1.part2.RubberDuck" target="com.iceblock.study.headfirst.pattern.chapter1.part2.Duck">
       <point x="43.33333333333334" y="-26.5" />
@@ -76,23 +66,19 @@
       <point x="301.1666666666667" y="83.0" />
       <point x="-41.33333333333334" y="26.5" />
     </edge>
-    <edge source="com.iceblock.study.headfirst.pattern.chapter1.part2.RedHeadDuck" target="com.iceblock.study.headfirst.pattern.chapter1.part2.behavior.FlyWithWings">
-      <point x="43.333333333333314" y="-26.5" />
-      <point x="571.0" y="332.0" />
-      <point x="743.25" y="332.0" />
-      <point x="-27.25" y="26.5" />
-    </edge>
     <edge source="com.iceblock.study.headfirst.pattern.chapter1.part2.MallardDuck" target="com.iceblock.study.headfirst.pattern.chapter1.part2.Duck">
       <point x="-43.33333333333334" y="-26.5" />
       <point x="666.375" y="312.0" />
       <point x="504.33333333333337" y="312.0" />
       <point x="95.33333333333331" y="84.5" />
     </edge>
+    <edge source="com.iceblock.study.headfirst.pattern.chapter1.part2.RedHeadDuck" target="com.iceblock.study.headfirst.pattern.chapter1.part2.behavior.FlyWithWings">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
     <edge source="com.iceblock.study.headfirst.pattern.chapter1.part2.Duck" target="com.iceblock.study.headfirst.pattern.chapter1.part2.behavior.QuackBehavior">
-      <point x="-71.5" y="-84.5" />
-      <point x="337.5" y="83.0" />
-      <point x="342.5" y="83.0" />
-      <point x="0.0" y="26.5" />
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
     </edge>
     <edge source="com.iceblock.study.headfirst.pattern.chapter1.part2.behavior.Quack" target="com.iceblock.study.headfirst.pattern.chapter1.part2.behavior.QuackBehavior">
       <point x="0.0" y="-26.5" />
@@ -101,13 +87,11 @@
       <point x="41.33333333333334" y="26.5" />
     </edge>
     <edge source="com.iceblock.study.headfirst.pattern.chapter1.part2.Duck" target="com.iceblock.study.headfirst.pattern.chapter1.part2.behavior.FlyBehavior">
-      <point x="71.5" y="-84.5" />
-      <point x="480.5" y="93.0" />
-      <point x="475.5" y="93.0" />
-      <point x="0.0" y="26.5" />
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="412.5" y="202.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="413.0" y="142.5" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
